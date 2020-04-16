@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3c1b70d-ba81-4a0c-9213-04b779f42f27" name="Default Changelist" comment="1st">
-      <change afterPath="$PROJECT_DIR$/ughdigital/celery.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.0.5.dist-info/AUTHORS" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.0.5.dist-info/INSTALLER" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.0.5.dist-info/LICENSE" afterDir="false" />
@@ -4390,14 +4389,16 @@
       <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Scripts/sqlformat.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ughdigital/celery.py" beforeDir="false" afterPath="$PROJECT_DIR$/ughdigital/celery.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -4422,6 +4423,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunManager">
     <configuration name="ughdigital" type="Python.DjangoServer" factoryName="Django server">
@@ -4460,6 +4462,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587064054426</updated>
       <workItem from="1587064105429" duration="9060000" />
+      <workItem from="1587073393068" duration="1910000" />
     </task>
     <task id="LOCAL-00001" summary="1st">
       <created>1587065193955</created>
@@ -4475,7 +4478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587071559640</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1st">
+      <created>1587073490949</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587073490949</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -4486,7 +4496,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -4509,14 +4521,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="834" y="302" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587066725277" />
-    <state x="1145" y="189" key="CommitChangelistDialog2" timestamp="1587072967734">
+    <state x="1145" y="189" key="CommitChangelistDialog2" timestamp="1587075305428">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1145" y="189" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587072967734" />
-    <state x="1221" y="372" key="FileChooserDialogImpl" timestamp="1587071315521">
+    <state x="1145" y="189" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587075305428" />
+    <state x="1221" y="372" key="FileChooserDialogImpl" timestamp="1587075142363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1221" y="372" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587071315521" />
+    <state x="1221" y="372" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587075142363" />
     <state width="943" height="170" key="GridCell.Tab.0.bottom" timestamp="1587073184611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -4533,14 +4545,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="943" height="170" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587073184611" />
+    <state x="523" y="277" key="SettingsEditor" timestamp="1587074588972">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="523" y="277" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587074588972" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1587072838576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1587072838576" />
-    <state x="1044" y="361" key="Vcs.Push.Dialog.v2" timestamp="1587071552223">
+    <state x="1044" y="361" key="Vcs.Push.Dialog.v2" timestamp="1587075310735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1044" y="361" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587071552223" />
+    <state x="1044" y="361" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587075310735" />
     <state x="952" y="550" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587072886274">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
